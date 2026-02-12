@@ -6,7 +6,7 @@ const TermsOfUse = () => (
     <Header />
     <main className="container mx-auto max-w-2xl px-4 py-16">
       <h1 className="font-display text-3xl font-bold text-primary sm:text-4xl">Posty Terms of Use</h1>
-      <p className="mt-2 text-sm text-muted-foreground">Effective date: [Month Day, Year]</p>
+      <p className="mt-2 text-sm text-muted-foreground">Effective date: February 12, 2026</p>
 
       <div className="mt-10 space-y-8 text-sm leading-relaxed text-muted-foreground sm:text-base">
         <Section title="1. Acceptance of terms">
@@ -44,7 +44,7 @@ const TermsOfUse = () => (
         </Section>
 
         <Section title="8. Contact">
-          Email: <a href="mailto:support@postyapp.com" className="text-primary hover:underline">support@postyapp.com</a>
+          Email: <a href="mailto:agai.main@gmail.com" className="text-primary hover:underline">agai.main@gmail.com</a>
         </Section>
       </div>
     </main>

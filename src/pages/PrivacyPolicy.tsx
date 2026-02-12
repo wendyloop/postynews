@@ -6,12 +6,12 @@ const PrivacyPolicy = () => (
     <Header />
     <main className="container mx-auto max-w-2xl px-4 py-16">
       <h1 className="font-display text-3xl font-bold text-primary sm:text-4xl">Posty Privacy Policy</h1>
-      <p className="mt-2 text-sm text-muted-foreground">Effective date: [Month Day, Year]</p>
+      <p className="mt-2 text-sm text-muted-foreground">Effective date: February 12, 2026</p>
 
       <div className="mt-10 space-y-8 text-sm leading-relaxed text-muted-foreground sm:text-base">
         <Section title="1. Who we are">
           Posty is a news app that helps users discover and watch short-form news content. If you have questions, contact us at{" "}
-          <a href="mailto:support@postyapp.com" className="text-primary hover:underline">support@postyapp.com</a>.
+          <a href="mailto:agai.main@gmail.com" className="text-primary hover:underline">agai.main@gmail.com</a>.
         </Section>
 
         <Section title="2. Information we collect">
@@ -69,7 +69,7 @@ const PrivacyPolicy = () => (
         </Section>
 
         <Section title="10. Contact">
-          Email: <a href="mailto:support@postyapp.com" className="text-primary hover:underline">support@postyapp.com</a>
+          Email: <a href="mailto:agai.main@gmail.com" className="text-primary hover:underline">agai.main@gmail.com</a>
         </Section>
       </div>
     </main>

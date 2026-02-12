@@ -21,7 +21,7 @@ const Index = () => {
             <span className="text-primary neon-text-glow">scrollable.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-md text-base text-muted-foreground sm:text-lg">
-            Posty turns today's headlines into fast, swipeable stories—built for Gen Z.
+            Posty turns today's headlines into fast, swipeable stories.
           </p>
           <button
             onClick={scrollToPolicies}
