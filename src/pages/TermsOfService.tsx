@@ -6,7 +6,7 @@ const TermsOfService = () => (
     <Header />
     <main className="container mx-auto max-w-2xl px-4 py-16">
       <h1 className="font-display text-3xl font-bold text-primary sm:text-4xl">Posty Terms of Service</h1>
-      <p className="mt-2 text-sm text-muted-foreground">Effective date: [Month Day, Year]</p>
+      <p className="mt-2 text-sm text-muted-foreground">Effective date: February 12, 2026</p>
 
       <div className="mt-10 space-y-8 text-sm leading-relaxed text-muted-foreground sm:text-base">
         <Section title="1. The service">
@@ -45,13 +45,13 @@ const TermsOfService = () => (
             <li><strong className="text-foreground">Message frequency:</strong> Only when you attempt to log in (message frequency varies).</li>
             <li><strong className="text-foreground">Cost:</strong> Msg &amp; data rates may apply.</li>
             <li><strong className="text-foreground">Opt-out:</strong> Reply STOP to opt out of SMS messages.</li>
-            <li><strong className="text-foreground">Help:</strong> Reply HELP for help or email <a href="mailto:support@postyapp.com" className="text-primary hover:underline">support@postyapp.com</a>.</li>
+            <li><strong className="text-foreground">Help:</strong> Reply HELP for help or email <a href="mailto:agai.main@gmail.com" className="text-primary hover:underline">agai.main@gmail.com</a>.</li>
             <li><strong className="text-foreground">Consent:</strong> By providing your phone number and using SMS login, you consent to receive SMS messages for authentication. Consent is not a condition of purchase.</li>
           </ul>
         </section>
 
         <Section title="7. Contact">
-          Email: <a href="mailto:support@postyapp.com" className="text-primary hover:underline">support@postyapp.com</a>
+          Email: <a href="mailto:agai.main@gmail.com" className="text-primary hover:underline">agai.main@gmail.com</a>
         </Section>
       </div>
     </main>

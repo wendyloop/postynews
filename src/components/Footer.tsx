@@ -17,12 +17,12 @@ const Footer = () => {
         </nav>
         <div className="space-y-1 text-sm text-muted-foreground">
           <p>
-            Questions?{" "}
-            <a href="mailto:support@postyapp.com" className="text-primary hover:underline">
-              support@postyapp.com
+             Questions?{" "}
+            <a href="mailto:agai.main@gmail.com" className="text-primary hover:underline">
+              agai.main@gmail.com
             </a>
           </p>
-          <p>Effective date: [Month Day, Year]</p>
+          <p>Effective date: February 12, 2026</p>
         </div>
         <p className="font-display text-xs text-muted-foreground/50">© Posty</p>
       </div>
