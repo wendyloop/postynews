@@ -5,7 +5,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
       <div className="container flex h-14 items-center justify-between">
         <Link to="/" className="font-display text-xl font-bold text-primary">
-          Posty ⚡
+          Posty News ⚡
         </Link>
         <nav className="flex items-center gap-1 sm:gap-3">
           <Link
