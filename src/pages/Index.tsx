@@ -16,16 +16,19 @@ const Index = () => {
       <section className="relative overflow-hidden px-4 pb-20 pt-24 sm:pt-32">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,hsl(110_100%_55%/0.06)_0%,transparent_70%)]" />
         <div className="container relative z-10 mx-auto max-w-2xl text-center">
-          <h1 className="font-display text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
+          <p className="mb-3 font-display text-xs font-semibold uppercase tracking-[0.3em] text-primary">
+            your daily scroll
+          </p>
+          <h1 className="font-display text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl md:text-6xl">
             News, but make it{" "}
-            <span className="text-primary neon-text-glow">scrollable.</span>
+            <span className="underline decoration-primary decoration-[3px] underline-offset-4">scrollable.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-md text-base text-muted-foreground sm:text-lg">
             Posty turns today's headlines into fast, swipeable stories.
           </p>
           <button
             onClick={scrollToPolicies}
-            className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 font-display text-sm font-semibold text-primary-foreground transition-all hover:neon-glow-strong active:scale-95"
+            className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 font-display text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/80 active:scale-95"
           >
             Read the Policies
           </button>
@@ -46,7 +49,7 @@ const Index = () => {
             ].map(({ icon: Icon, text }) => (
               <div
                 key={text}
-                className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 transition-colors hover:border-primary/30"
+                className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 transition-colors hover:bg-secondary"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
                   <Icon className="h-5 w-5" />
@@ -88,7 +91,7 @@ const Index = () => {
             <Link
               key={to}
               to={to}
-              className="w-full rounded-2xl border border-primary/40 bg-transparent px-6 py-4 text-center font-display text-sm font-semibold text-primary transition-all neon-border-glow hover:bg-primary/10 hover:neon-glow active:scale-[0.98] sm:text-base"
+              className="w-full rounded-2xl border border-primary/40 bg-transparent px-6 py-4 text-center font-display text-sm font-semibold text-primary transition-all hover:bg-primary/10 active:scale-[0.98] sm:text-base"
             >
               {label}
             </Link>
