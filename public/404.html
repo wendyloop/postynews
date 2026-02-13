@@ -1,13 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=/" />
-    <script>
-      // Preserve the path so your SPA router can handle it
-      var path = location.pathname + location.search + location.hash;
-      location.replace("/?redirect=" + encodeURIComponent(path));
+    <title>Posty News</title>
+    <script type="text/javascript">
+      // SPA redirect for GitHub Pages
+      // Converts /privacy -> /?/privacy so the server returns index.html,
+      // then index.html rewrites it back before your app loads.
+      var pathSegmentsToKeep = 0; // for custom domain use 0; for repo pages use 1
+      var l = window.location;
+      var newUrl =
+        l.protocol +
+        "//" +
+        l.host +
+        l.pathname
+          .split("/")
+          .slice(0, 1 + pathSegmentsToKeep)
+          .join("/") +
+        "/?/" +
+        l.pathname
+          .split("/")
+          .slice(1 + pathSegmentsToKeep)
+          .join("/") +
+        (l.search ? "&" + l.search.slice(1) : "") +
+        l.hash;
+
+      l.replace(newUrl);
     </script>
   </head>
   <body></body>
 </html>
+
