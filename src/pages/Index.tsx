@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Zap, Layers, Share2, Smartphone } from "lucide-react";
@@ -84,17 +83,17 @@ const Index = () => {
       <section id="policies" className="border-t border-border py-16">
         <div className="container mx-auto flex max-w-sm flex-col items-center gap-4">
           {[
-            { to: "/privacy", label: "Privacy Policy" },
-            { to: "/terms-of-use", label: "Terms of Use" },
-            { to: "/terms-of-service", label: "Terms of Service" },
-          ].map(({ to, label }) => (
-            <Link
-              key={to}
-              to={to}
+            { href: "/privacy/", label: "Privacy Policy" },
+            { href: "/terms-of-use/", label: "Terms of Use" },
+            { href: "/terms-of-service/", label: "Terms of Service" },
+          ].map(({ href, label }) => (
+            <a
+              key={href}
+              href={href}
               className="w-full rounded-2xl border border-primary/40 bg-transparent px-6 py-4 text-center font-display text-sm font-semibold text-primary transition-all hover:bg-primary/10 active:scale-[0.98] sm:text-base"
             >
               {label}
-            </Link>
+            </a>
           ))}
         </div>
       </section>

@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #060b1a;
+  color: #d8e0f2;
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #66b3ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  width: min(840px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+h1 {
+  margin: 0;
+  color: #7bd0ff;
+  font-size: clamp(1.9rem, 3vw, 2.4rem);
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 0 0 0.65rem;
+  color: #f3f7ff;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+p {
+  margin: 0.6rem 0 0;
+}
+
+ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.15rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+.effective {
+  margin-top: 0.5rem;
+  color: #a9b6d3;
+  font-size: 0.95rem;
+}
+
+section {
+  margin-top: 1.7rem;
+}
+
+.sms-card {
+  margin-top: 1.8rem;
+  padding: 1.1rem 1rem;
+  border: 1px solid #2f5d8e;
+  border-radius: 0.85rem;
+  background: #0c1a31;
+}
+
+.sms-card h2 {
+  margin-bottom: 0.35rem;
+  color: #80d5ff;
+}
+
+.footer-links {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #1b2c47;
+  font-size: 0.95rem;
+}
+
